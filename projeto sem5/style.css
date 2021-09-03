@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+html,body{
+    box-sizing: border-box;
+    height: 100vh;
+  
+   
+}
+
+div{
+    margin-top: 15px;
+   margin: auto;
+    background-color: rgb(59, 51, 51);
+    border: solid black;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+
+}
+
+section{
+   
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: #CCC;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+   border: solid black;
+    width: 300px;
+}
+#botao{
+    display: flex;
+    position: absolute;
+    left: 30%;
+}
